@@ -29,7 +29,7 @@ const Accueil = () => {
             <h1>accueil</h1>
             {
                 data.map((d,i)=> {
-                    return <p key={i}>{d.author} </p>
+                    return <p key={i}>{d.videoUrl} </p>
                 })
             }
 
